@@ -9,27 +9,33 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 ## Results: 
 
-Naive Random Oversampling results: Our balanced accuracy test it 67%, the precision for the high_risk has a very low positivity at 1% and the recall is 74%
+### Naive Random Oversampling results: 
+Our balanced accuracy test it 66.7%, the precision for the high_risk has a very low positivity at 1% and the recall is 70%
 
 ![ScreenShot](https://github.com/LIPSASHARMA/Credit_Risk_Analysis/blob/main/Starter_Code/Starter_Code/images/naive_random_sampling.png)
 
-SMOTE oversampling results: the accuracy score is 66.2%, the precision for the high_risk loans has a low positvity again at 1% and recall is 69% overall
+### SMOTE oversampling results: 
+The accuracy score is 64.5%, the precision for the high_risk loans has a low positvity again at 1% and recall is 60% overall
 
 ![ScreenShot](https://github.com/LIPSASHARMA/Credit_Risk_Analysis/blob/main/Starter_Code/Starter_Code/images/smote_over_sampling.png)
 
-Undersampling results: balanced accuracy score is 66.2% overall, the precision is at 99% and the recall is 41%
+### Undersampling results: 
+Balanced accuracy score is 64.5% overall, the precision is at 1% and the recall is %60
 
 ![ScreenShot](https://github.com/LIPSASHARMA/Credit_Risk_Analysis/blob/main/Starter_Code/Starter_Code/images/under_sampling.png)
 
-Combination(over and undersampling) results: balanced accuracy score is 54.7% the precision is 99% and the recall is 57% overall
+### Combination(over and undersampling) results: 
+Balanced accuracy score is 65.6% the precision is 99% and the recall is 74% overall
 
 ![ScreenShot](https://github.com/LIPSASHARMA/Credit_Risk_Analysis/blob/main/Starter_Code/Starter_Code/images/combination_over_under_sampling.png)
 
-Balanced Random Forest Classifier results: the accuracy score is 77.2% the precision is 99% and the recall is 88%
+### Balanced Random Forest Classifier results: 
+The accuracy score is 87.71% the precision is 99% and the recall is 88%
 
 ![ScreenShot](https://github.com/LIPSASHARMA/Credit_Risk_Analysis/blob/main/Starter_Code/Starter_Code/images/balanced_random_forest_classifier.png)
 
-Easy Ensemble AdaBoost Classifier results: the accuracy score is 91.7% the precision is 99% and the recall is 94%
+### Easy Ensemble AdaBoost Classifier results: 
+The accuracy score is 92.64% the precision is 99% and the recall is 94%
 
 ![ScreenShot](https://github.com/LIPSASHARMA/Credit_Risk_Analysis/blob/main/Starter_Code/Starter_Code/images/easy_ensemble_classifier.png)
 
