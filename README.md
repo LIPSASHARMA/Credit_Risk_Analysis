@@ -11,27 +11,27 @@ Using the credit card credit dataset from LendingClub, a peer-to-peer lending se
 
 Naive Random Oversampling results: Our balanced accuracy test it 67%, the precision for the high_risk has a very low positivity at 1% and the recall is 74%
 
-<Insert oversampling screenshot>
+![ScreenShot](https://github.com/LIPSASHARMA/Credit_Risk_Analysis/blob/main/Starter_Code/Starter_Code/images/naive_random_sampling.png)
 
 SMOTE oversampling results: the accuracy score is 66.2%, the precision for the high_risk loans has a low positvity again at 1% and recall is 69% overall
 
-<Insert SMOTE screenshot>
+![ScreenShot](https://github.com/LIPSASHARMA/Credit_Risk_Analysis/blob/main/Starter_Code/Starter_Code/images/smote_over_sampling.png)
 
 Undersampling results: balanced accuracy score is 66.2% overall, the precision is at 99% and the recall is 41%
 
-<Insert Undersampling balanced accuracy score screenshot>
+![ScreenShot](https://github.com/LIPSASHARMA/Credit_Risk_Analysis/blob/main/Starter_Code/Starter_Code/images/under_sampling.png)
 
 Combination(over and undersampling) results: balanced accuracy score is 54.7% the precision is 99% and the recall is 57% overall
 
-<Insert combination of over and undersampling screenshot>
+![ScreenShot](https://github.com/LIPSASHARMA/Credit_Risk_Analysis/blob/main/Starter_Code/Starter_Code/images/combination_over_under_sampling.png)
 
 Balanced Random Forest Classifier results: the accuracy score is 77.2% the precision is 99% and the recall is 88%
 
-<Insert balanced random forest classifier screenshot>
+![ScreenShot](https://github.com/LIPSASHARMA/Credit_Risk_Analysis/blob/main/Starter_Code/Starter_Code/images/balanced_random_forest_classifier.png)
 
 Easy Ensemble AdaBoost Classifier results: the accuracy score is 91.7% the precision is 99% and the recall is 94%
 
-<Insert SMOTE screenshot>
+![ScreenShot](https://github.com/LIPSASHARMA/Credit_Risk_Analysis/blob/main/Starter_Code/Starter_Code/images/easy_ensemble_classifier.png)
 
 
 
